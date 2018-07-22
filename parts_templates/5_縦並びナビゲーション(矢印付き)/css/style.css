@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+
+.submenu {
+	width: 300px;
+}
+
+.submenu ul {
+	list-style:none;
+	margin: 0;
+	padding: 0;
+
+	border: 1px solid rgb(221, 171, 169);
+	border-radius: 10px;
+	background: rgb(204, 185, 185);
+}
+.submenu li {
+	border-bottom: 1px solid rgb(224, 189, 189);
+	background:url(../images/arrow.png) right 20px center no-repeat;
+}
+.submenu li:last-child {
+	border-bottom: none;
+}
+.submenu li:hover {
+	background: #f09191;
+}
+.submenu a {
+	display: block;
+	padding: 10px 30px;
+	text-decoration: none;
+	color: rgb(224, 54, 42);
+}

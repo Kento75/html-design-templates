@@ -1,0 +1,22 @@
+@charset "utf-8";
+
+.info {
+	margin-bottom: 20px;
+	width: 298px;
+}
+.info h2 {
+	margin: 0;
+	border: 1px solid #168001;
+	padding: 5px;
+	border-radius: 10px 10px 0 0;
+	background: #08f508;
+	text-align: center;
+	font-size: 18px;
+	color: #ffffff;
+}
+.info p {
+	margin: 0;
+	border: 1px solid #98aeeb;
+	padding: 20px;
+	border-radius: 0 0 10px 10px;
+}
